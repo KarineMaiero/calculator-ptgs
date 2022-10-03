@@ -1,7 +1,18 @@
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
 body{
     background-image: url(./assets/images/maths.jpg);
     /* background-image: linear-gradient(180deg,  rgb(165, 209, 179), rgb(26, 80, 57)); */
+    /* min-height: -webkit-calc(100vh - 100px); */
+    /* min-height: -moz-calc(100vh - 100px); */
+    min-height: calc(100vh - 100px);
+    position: relative;
 }
 
 #principal {
@@ -9,7 +20,8 @@ body{
     margin: 2em 5em;
     border-radius: 20px;
     padding: 2em;
-    box-shadow:10px 13px 50px -13px rgba(0,0,0,0.75)
+    box-shadow:10px 13px 50px -13px rgba(0,0,0,0.75);
+    min-height: 100vh;
 }
 
 
@@ -31,8 +43,9 @@ footer {
     padding: 10px;
     background-color: black;
     color: white;
-    width: border-box;
-    height: 100px;
+    /* display: block; */
+    /* min-height: 100px; */
+    width: 100%;
 }
 
 #imgfooter {
