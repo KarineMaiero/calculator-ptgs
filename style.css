@@ -1,0 +1,41 @@
+
+body{
+    background-image: url(./assets/images/maths.jpg);
+    /* background-image: linear-gradient(180deg,  rgb(165, 209, 179), rgb(26, 80, 57)); */
+}
+
+#principal {
+    background-color: rgba(255, 255, 255, 0.904);
+    margin: 2em 5em;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow:10px 13px 50px -13px rgba(0,0,0,0.75)
+}
+
+
+#calculator {
+    padding-top: 2em;
+}
+
+#btn {
+    margin-top: 1em;
+}
+.pythagoras-image {
+    height: 10em;
+    width: 10em;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: border-box;
+    height: 100px;
+}
+
+#imgfooter {
+    width: 40px;
+    height: 40px;
+}
